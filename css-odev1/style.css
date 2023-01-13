@@ -1,0 +1,43 @@
+body{
+    background-color: antiquewhite;
+    font-family: poppins;
+    color: black;
+    text-align: center;
+    
+}
+.header{
+    display: inline-block;
+    padding-bottom: 2px;
+    position: relative;
+    text-transform:uppercase;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: purple;
+    transition: width 0.25s ease-out;
+}
+.header:hover::before{
+    width: 100%;
+}
+.nav{
+    display: block;
+    background-color: white
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
