@@ -1,0 +1,9 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-6 {
+    width: 50%;
+    flex: 0 0 auto;
+}
