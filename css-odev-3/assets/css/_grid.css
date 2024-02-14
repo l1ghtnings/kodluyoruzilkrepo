@@ -7,3 +7,11 @@
     width: 50%;
     flex: 0 0 auto;
 }
+
+.top-bar {
+    display: flex;
+}
+
+.row {
+    display: flex;
+}

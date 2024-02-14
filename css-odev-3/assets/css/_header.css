@@ -1,3 +1,27 @@
-.header .top-bar{
+.top-bar-menu{
     list-style: none;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.top-bar-content {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.top-bar-left {
+    float: left;    
+}
+.top-bar-right {
+    float: right;
+}
+.top-bar-icon {
+    height: 20px;
+}
+.sign-in-button {
+    background-color: #4386FA;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 3px;
 }

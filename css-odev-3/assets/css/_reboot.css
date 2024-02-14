@@ -1,0 +1,32 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html, body, 
+ul, ol {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6
+p {
+    margin: 0px;
+}
